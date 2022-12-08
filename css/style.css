@@ -42,8 +42,9 @@
  article a:hover {
      color: #0085a1;
  }
-article h2:hover {
-    color: #0085a1;
+
+ article h2:hover {
+     color: #0085a1;
  }
 
  article h2 {
@@ -69,21 +70,16 @@ article h2:hover {
      background: rgb(220, 238, 238);
  }
 
-   article:nth-child(1)::before {
+ .addnew h2::before {
      content: "new";
      text-transform: uppercase;
      color: red;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      font-size: 2rem;
-   }
-     article:nth-child(2)::before {
-        content: "new";
-        text-transform: uppercase;
-        color: red;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 2rem;
-
  }
+
+
+
 
  footer {
      padding-top: 10px;
